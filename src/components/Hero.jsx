@@ -7,21 +7,21 @@ function Hero(){
             style={{
                 backgroundImage: `url(${hero})`
             }}>
-                <div className="size-full absolute bg-[rgb(0,0,0,0.5)] z-10"></div>
+                <div className="size-full absolute bg-[rgb(0,0,0,0.8)] z-10"></div>
 
-                <div className="size-full flex items-center pl-5 z-20 relative">
+                <div className="size-full flex items-center pl-10 z-20 relative">
                     <div className="flex flex-col gap-5">
                         
-                        <div>
-                            <h2 className="text-primary-400 text-[11.089rem] font-bold">Coffee? Life?</h2>
-                            <p className="text-white text-[2.618rem]">Coffee and Life coexists and we only serve the best</p>
+                        <div className="flex flex-col">
+                            <h2 className="leading-none text-primary-300 drop-shadow-[3px_3px_0px_white] text-[6.854rem] font-bold">Coffee? Life?</h2>
+                            <p className="leading-none text-white text-[2.618rem] font-extralight">Coffee and Life coexists and we only serve the best</p>
                         </div>
                         
 
-                        <div className="space-y-2">
-                            <button className="transition-all duration-300 hover:bg-primary-400 hover:text-white cursor-pointer w-fit text-xl px-5 py-2 rounded-full bg-light-100 text-dark-950">Order Now</button>
-                            <br />
-                            <button className="transition-all duration-300 hover:bg-primary-neutral-600 cursor-pointer w-fit text-md px-5 py-2 rounded-full bg-primary-neutral-500 text-white">Learn More</button>
+                        <div className="flex items-center gap-2">
+                            <button className="text-[1.618rem] h-15 min-w-50 rounded font-semibold transition-all duration-300 hover:bg-primary-300 active:bg-primary-600 border-5 border-primary-300 hover:text-white cursor-pointer w-fit px-5 py-2 bg-primary-400 text-white">Order Now</button>
+                            
+                            <button className="text-[1.500rem] font-light h-15 min-w-50 rounded transition-all duration-300 hover:bg-primary-neutral-600 cursor-pointer w-fit px-5 py-2 border-primary-neutral-300 border-5 text-white">Learn More</button>
                         </div>
                         
                     </div>
