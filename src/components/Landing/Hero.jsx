@@ -1,13 +1,8 @@
-import hero from "../assets/landing/hero.jpg"
 
 function Hero(){
     return (
         <>
-            <div className="flex-1 bg-cover bg-center relative"
-            style={{
-                backgroundImage: `url(${hero})`
-            }}>
-                <div className="size-full absolute bg-[rgb(0,0,0,0.8)] z-10"></div>
+            <div className="flex-1 bg-cover bg-center relative">
 
                 <div className="size-full flex items-center pl-10 z-20 relative">
                     <div className="flex flex-col gap-5">
