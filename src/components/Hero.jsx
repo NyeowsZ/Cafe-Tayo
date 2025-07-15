@@ -13,8 +13,8 @@ function Hero(){
                     <div className="flex flex-col gap-5">
                         
                         <div>
-                            <h2 className="text-light-100 text-5xl font-bold">Coffee you're gonna love</h2>
-                            <p className="text-white text-xl font-semibold">Coffee and Life coexists and we only serve the best</p>
+                            <h2 className="text-primary-400 text-[11.089rem] font-bold">Coffee? Life?</h2>
+                            <p className="text-white text-[2.618rem]">Coffee and Life coexists and we only serve the best</p>
                         </div>
                         
 
